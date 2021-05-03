@@ -124,3 +124,10 @@ public class Octree
         }
     }
 }
+
+
+
+
+
+
+//tomado de: https://github.com/mauriciotoro/ST0245-Eafit/tree/master/laboratorios/lab04/spoiler/java/ejercicio-abejas
