@@ -1,7 +1,7 @@
 from huffman import HuffmanCom
 import os
 
-ruta_carpetas    = 'rutas/' 
+ruta_carpetas    = 'rutas/' #Aquí va la ruta de donde se extrae el archivo
 nombres_carpetas = os.listdir(ruta_carpetas) 
 print(nombres_carpetas)
 
