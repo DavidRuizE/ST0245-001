@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 from huffman import HuffmanCom
 from time import time
 
@@ -22,10 +16,3 @@ decompressed = image.decompress(compressed)
 fin2 = time()
 total2 = fin2-inicio2
 print("Decompressed:", total2) '''
-
-
-# In[ ]:
-
-
-
-
