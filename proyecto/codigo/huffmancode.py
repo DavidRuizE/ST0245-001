@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import heapq
 import os
 
@@ -21,7 +15,6 @@ class HuffmanCom:
 			self.izq = None
 			self.der = None
 
-		# rehacemos las los metodos igual(eq) y menor que(lt) 
 		def __lt__(self, other):
 			return self.freq < other.freq
 
@@ -32,7 +25,6 @@ class HuffmanCom:
 				return False
 			return self.freq == other.freq
 
-	# functions para comprimir:
 
 	def diccionario_frecuencia(self, texto):
 		frecuencia = {}
@@ -130,8 +122,6 @@ class HuffmanCom:
 		return ruta_salida
 
 
-	# Metodos de decodificacion
-
 
 	def remover_relleno(self, texto_codificado_relleno):
 		almohadilla_info = texto_codificado_relleno[:8]
@@ -178,16 +168,3 @@ class HuffmanCom:
 
 		print("Descomprimiendo archivo...")
 		return ruta_salida
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
